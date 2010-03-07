@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Evan Machnic - Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
+  </head>
+  <body>
+    <div id="containerWrapper">
+      <div id="header">
+      	<p>
+        	<a href="http://tungle.me/emachnic" target="_blank">
+          	<img src="http://www.tungle.com/public/emachnic/busyicon" alt="Tungle Me" />
+          </a>
+        </p>
+      </div>
+      <div id="container">
+        <div id="sidebar">
+        	<ul>
+          	<li>
+            	<a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/blog/blogs/about_me.php">About Me</a>
+            </li>
+            <li>
+             	<a href="/education/">Education</a>
+            </li>
+						<li>
+							<a href="/experience/">Experience</a>
+            <li>
+              <a href="/resume/">Resume</a>
+            </li>
+            <li class="active">
+            	<a href="/portfolio/">Portfolio</a>
+            </li>
+            <li>
+              <a href="/blog/blogs/it_blog.php">IT Project</a>
+            </li>
+						<li>
+							<a href="/organizations/">Organizations</a>
+						</li>
+						<li>
+							<a href="/calendar/">Calendar</a>
+						</li>
+						<li>
+							<a href="/twitter/">Twitter</a>
+						</li>
+            <li class="navLast">
+              <a href="/contact/">Contact</a>
+            </li>
+          </ul>
+          <p>
+          	<a href="http://www.linkedin.com/in/evanmachnic">
+            	<img src="../images/btn_in_20x15.gif" alt="View Evan Machnic's profile on LinkedIn" />
+            </a>
+						<a href="http://www.facebook.com/emachnic">
+            	<img style="padding-right: 5px;" src="../images/facebook-icon.png" alt="View Evan Machnic's profile on Facebook" />
+            </a>
+						<a href="http://twitter.com/emachnic">
+            	<img src="../images/TwitterIcon.png" alt="Follow Evan Machnic on Twitter" />
+            </a>
+          </p>
+        </div>
+        <div id="mainContent">
+        	<table>
+        		<tr>
+        			<td>
+        				<h4 class="col1">
+        					AIT Envirotech Site
+        				</h4>
+        			</td>
+							<td>
+								<h4>
+									DMS Application Approver
+								</h4>
+							</td>
+        		</tr>
+							<td>
+								<h4>
+									CI Site Redesign
+								</h4>
+							</td>
+							<td>
+								<h4>
+									Night Nole Presentation
+								</h4>
+							</td>
+						</tr>
+        	</table> 
+        </div>
+        <div id="footer">
+        	<p>
+          	&copy; 2009 <a href="mailto:emachnic@broadmac.net"><em>Evan Machnic</em></a>
+						&bull;&nbsp;valid <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fbroadmac.net%2Forganizations%2F">HTML5</a>
+						and <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+						&bull;&nbsp;<a href="http://wave.webaim.org/refer">WAVE</a> validated
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

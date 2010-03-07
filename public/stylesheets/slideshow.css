@@ -1,0 +1,15 @@
+#sliderContainer {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center; }
+  #sliderContainer #slider ul, #sliderContainer #slider ul li {
+    list-style: none; }
+  #sliderContainer #slider, #sliderContainer #slider ul li {
+    width: 550px;
+    height: 270px;
+    overflow: hidden; }
+  #sliderContainer #slider ul li img {
+    float: right;
+    padding-left: 10px; }
+  #sliderContainer #slider ul li p {
+    text-align: justify; }

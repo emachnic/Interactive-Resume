@@ -1,0 +1,296 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <ol>
+      <li>
+        <a href="#exec">Executive Summary</a>
+      </li>
+      <li>
+        <a href="#intro">Introduction</a>
+      </li>
+      <li>
+        <a href="#sponsor">Project Sponsor</a>
+      </li>
+      <li>
+        <a href="#solution">Proposed Solution</a>
+      </li>
+      <li>
+        <a href="#team">Team Members</a>
+      </li>
+      <li>
+        <a href="#scope">Scope</a>
+        <ol>
+          <li>
+            <a href="#goal">Goal</a>
+          </li>
+          <li>
+            <a href="#obj1">Objective One</a>
+          </li>
+          <li>
+            <a href="#obj2">Objective Two</a>
+          </li>
+          <li>
+            <a href="#obj3">Objective Three</a>
+          </li>
+          <li>
+            <a href="#obj4">Objective Four</a>
+          </li>
+          <li>
+            <a href="#obj5">Objective Five</a>
+          </li>
+          <li>
+            <a href="#obj6">Objective Six</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="#assumptions">Assumptions and Constraints</a>
+      </li>
+      <li>
+        <a href="#alt">Alternative Solutions</a>
+      </li>
+    </ol>
+    <section id="exec">
+      <h3>Executive Summary</h3>
+      <p>
+        The Florida State Department of Management Services (DMS) provides many 
+        different services to the state agencies, some of which are: managing leases 
+        of state facilities, human resources, and state purchasing. Recently an audit 
+        was conducted by the Auditor General's office of the Facilities area in the 
+        Real Estate division. One of the findings of the audit was that there is 
+        currently no way to track and report the internal applications that employees 
+        can access. Because of this, such an application must be created and Joe Wright, 
+        the Chief Information Officer of DMS' Information Technology department, 
+        is the sponsor of the project.
+      </p>
+      <p>
+        The proposed solution is to create a new application that will perform all of 
+        the required tasks. Evan Machnic, who is the intern, will be given the responsibility 
+        of designing and creating the application using the Ruby on Rails framework.  
+        The main assumption on this project is that the application will be completed 
+        in the five weeks from 30 June 2009 to 4 August 2009. Because of this, time is 
+        also the biggest constraint. After the period of internship, the application 
+        will continue to be maintained by DMS Information Technology employees.  
+        This project plan details these points and discusses others as well.
+      </p>
+    </section>
+    <section id="intro">
+      <h3>Introduction</h3>
+      <p>
+        Recently, the Auditor General's office of Florida conducted an audit of the Facilities 
+        area within the Department of Management Services. The audit was performed in order to 
+        identify inefficiencies and use those findings to create a better way of managing the divisions.
+        One of the biggest roles of the Department of Management Services is managing the buildings 
+        for the entire state of Florida, including the leases of private facilities. The key finding 
+        is that there is no current way of reporting employees that have access to the various internal 
+        applications used throughout DMS. The Information Technology office decided that an application 
+        needed to be created to produce said reports and the application will be written in the Ruby on 
+        Rails language and framework. In addition to the reporting capabilities, there needed to be ways
+        to request and grant employee access to applications. The main focus is completing the capabilities 
+        for the Facilities Operations Group of DMS though the application should be scalable to allow for 
+        addition of other groups.
+      </p>
+      <p>
+        The problem that is fueling the need for this project is the inability to easily find out which 
+        employees have access to the different internal applications. With the current system, if an 
+        employee leaves or is terminated, the applications manager for that department must be notified 
+        so that he/she can remove access for the former employee. The problem here is that frequently, 
+        no notification is sent and the employee remains in the system even though he/she is no longer 
+        employed. This creates for great inefficiencies as well as security vulnerabilities. It is 
+        important to complete this project so that the current wasted money from inefficiencies can be 
+        spent in an area that needs it.
+      </p>
+      <p>
+        The other problem that this application hopes to alleviate is the inability to print reports 
+        with a list of employees and their approved applications. This is the main problem that the 
+        auditor general found and probably would find in other departments. Fixing this problem would 
+        help to fix the other one because if managers were able to view/print the reports then former 
+        employees would easily be found. If these problems are not solved, then DMS could lose more 
+        money and in an extreme circumstance, the management and employees may be replaced.
+      </p>
+    </section>
+    <section id="sponsor">
+      <h3>Project Sponsor</h3>
+      <p>
+        The sponsor for this project is the Chief Information Officer for DMS, Joe Wright. Because 
+        of this, Mr. Wright needs ways to easily generate various reports and the process should be 
+        as unobtrusive as possible. The main purpose of this project from Mr. Wright's perspective 
+        is that he needs to be able to view all employees and the applications to which they have access.
+        These reports will be displayed on a computer screen as well as having the option to print and email.
+      </p>
+    </section>
+    <section id="solution">
+      <h3>Proposed Solution</h3>
+      <p>
+        The current solution to the previously discussed problems is to create a new, internal web 
+        application. This application will be written in Ruby on Rails to utilize the model-view-controller 
+        way of organizing applications. Many of the new applications for DMS are written in Ruby on Rails 
+        because they can be written quickly and are very modular and scalable. The application will connect 
+        to the DMS Central Directory, MySQL database which provides all of the needed information for tracking 
+        and reporting. The milestones for this project will be: create a name and layout based around the 
+        Central Directory's design; complete modifications of the database; three milestones coinciding with 
+        creation of the Applications Manager, Supervising Manager and Departmental Manager sections; complete 
+        tests on all aspects of the application; deploy the application to the server. The project will be 
+        finished on August 4th, 2009 when Evan Machnic's internship finishes.
+      </p>
+      <p>
+        After considering the needs of the organization, a solution was proposed to create a new application 
+        with the needed functionality. The application will be designed and created by Evan Machnic with 
+        help from other team members if needed. The plan is to use existing databases that will provide 
+        most of the information, though they may require modification to accommodate the tracking abilities. 
+        Because there are multiple roles involved, authentication will be implemented to allow access for 
+        only specific roles. If a user does not have the required role, then he or she should not have the 
+        option to access the restricted areas. This will simplify the application for the users as well as 
+        keep it nice and thin. The biggest disadvantage to this plan is that everything will be created 
+        from scratch and that requires more man-hours and thus more money.
+      </p>
+    </section>
+    <section id="team">
+      <h3>Team Members</h3>
+      <p>
+        <strong>Dan Pelletier</strong> is the overall Project Manager. He oversees all aspects of system 
+        design and project life cycle. Mr. Pelletier will be present at project meetings and will guide 
+        the project as a whole. His email is <a href="mailto:Dan.Pelletier@dms.myflorida.com">Dan.Pelletier@dms.myflorida.com</a>
+        and office phone number is (850) 487-9849.
+      </p>
+      <p>
+        <strong>Sarah Hamilton</strong> is the testing Project Manager. She is in charge of project testing 
+        including prototyping and usability tests. Her email is <a href="mailto:Sarah.Hamilton@dms.myflorida.com">Sarah.Hamilton@dms.myflorida.com</a> 
+        and office phone number is (850) 414-6999.
+      </p>
+      <p>
+        <strong>Bernardo Telles</strong> will be in charge of system design, database design, and Ruby on Rails 
+        development. In addition to designing and creating the project database, he will also make sure 
+        everyone's development software is consistent so as to ensure compatibility. His email is 
+        <a href="mailto:Bernardo.Telles@dms.myflorida.com">Bernardo.Telles@dms.myflorida.com</a> and 
+        phone number is (850) 487-3321.
+      </p>
+      <p>
+        <strong>Mary Jordan</strong> is the project's graphics designer. She will create the header banner 
+        for the web-based application. Having her on board is a good thing because it takes keeps the 
+        developers from having to think too much about visual design and they can concentrate on writing 
+        the application. Her email is <a href="Mary.Jordan@dms.myflorida.com">Mary.Jordan@dms.myflorida.com</a> 
+        and phone number is (850) 414-0452.
+      </p>
+      <p>
+        <strong>Evan Machnic</strong> is the intern for the project in charge of writing the application.
+        He is a senior at Florida State University and will be interning until August 4th, 2009.
+        This project is also serving as his required project for the LIS4910 Information Technology Project 
+        course. His email is <a href="Evan.Machnic@dms.myflorida.com">Evan.Machnic@dms.myflorida.com</a>.
+      </p>
+    </section>
+    <section id="scope">
+      <h3>Scope</h3>
+      <section id="goal">
+        <h4>Goal</h4>
+        <p>
+          The goal of this project is to decrease inefficiencies discovered through an internal audit by 
+          creating a program to track employee access to internal web-based applications.
+        </p>
+      </section>
+      <section id="obj1">
+        <h4>Objective One</h4>
+        <p>
+          The first objective is to agree on a name for this application because it is going to be brand 
+          new and not just plugged in to an existing application. After meeting with the group members, 
+          the name that was agreed upon is "Application Approver" and a new banner was created to be the header. 
+          This objective is important because the server needs to be set up with a new sub-domain before the 
+          application can be deployed.
+        </p>
+      </section>
+      <section id="obj2">
+        <h4>Objective Two</h4>
+        <p>
+          After agreeing upon a name, a method for login and authentication needs to be created.
+          There are going to be three roles for the Application Approver: Requesting Manager, Administrator, 
+          and Applications Manager. After the employee logs in, he or she will be directed to a section of 
+          the site based on the role of that employee. The employee will not see any part of the application 
+          that he or she does not need so as to avoid any confusion.
+        </p>
+      </section>
+      <section id="obj3">
+        <h4>Objective Three</h4>
+        <p>
+          The third objective is to create the Applications Manager section. This will only be visible to 
+          employees with that role and will only have the functionality of changing an employee's status 
+          from "Removed" or "Approved" to "Finished." The removed employees will come from nightly reports 
+          sent from PeopleFirst and approved will come from the Administrator's approval. The updating 
+          should only be done after that employee is added to or removed from an application within the 
+          Applications Manager's division.
+        </p>
+      </section>
+      <section id="obj4">
+        <h4>Objective Four</h4>
+        <p>
+          Objective four is the creation of the Requesting Manager's section. This will include a "Search" 
+          function for employees and then the ability to choose applications to request access for that 
+          employee. The Rails plugin "searchLogic" will provide the searching capabilities instead of writing 
+          a custom search because it provides all of the needed functions. This will also help immensely 
+          with limited amount of time for this project.
+        </p>
+      </section>
+      <section id="obj5">
+        <h4>Objective Five</h4>
+        <p>
+          The fifth objective is making the Administrator section. The administrator will be able to log 
+          in and immediately see all employees who have been requested. He or she can then approve that 
+          employee which will notify the appropriate Applications Manager.
+        </p>
+      </section>
+      <section id="obj6">
+        <h4>Objective Six</h4>
+        <p>
+          The final objective is to commit the application to the repository and go live. There will be 
+          usability testing done and possibly revisions done before the application is in use. Once the 
+          application is tested and live then this will be the completion of the project.
+        </p>
+      </section>
+    </section>
+    <section id="assumptions">
+      <h3>Assumptions and Constraints</h3>
+      <p>
+        The Department of Management Services' biggest assumption is that Evan Machnic will be able to 
+        finish the project in the allotted time. The internship did not officially begin until 30 June 
+        2009 and it ends on 4 August 2009. This is a very limited time frame to create a web application 
+        from the ground up, and assumes that Evan will not run into any difficult obstacles. Ideally, the 
+        developer would have time to design and test both paper and electronic prototypes but the time 
+        constraints allow only a limited amount of design.
+      </p>
+      <p>
+        Another assumption is that the current developers who know Ruby on Rails will continue employment 
+        with the organization. Rails is a fairly new framework for the web, currently only at version 2.3.2. 
+        It's use is on the rise because of the speed of getting an application up and running. The problem 
+        is that most Ruby on Rails developers are in the Northern and Western United States. Currently, it 
+        is difficult to find many Rails programmers in the Southeast. It is also a framework that is only 
+        taught on a limited basis at Universities so DMS may run into trouble finding developers if it loses 
+        any.
+      </p>
+    </section>
+    <section id="alt">
+      <h3>Alternative Solutions</h3>
+      <p>
+        One alternative solution is to add on to the existing Directory application. Since the database 
+        being used is the same with some minor changes, this seems like the most logical alternative.
+        Many of the functions such as role-based authentication, employee search, and sessions are already 
+        in the Directory so they would not need to be re-created. This solution would save quite a bit of 
+        time and with the constraints, makes a lot of sense. The problem here is that users may get confused 
+        as to where to go for the application approval process. Currently, people already have to learn how 
+        to use the new Directory and this would be another feature. The argument against that is by utilizing 
+        the role-based authentication, users who do not have access would not even know that there is an 
+        Application Approver, though in the end it was decided to keep the applications separate.
+      </p>
+      <p>
+        Another solution is to find an "off-the-shelf" application to perform the tasks. This seems like 
+        a good idea at first because if there is an application already out there, employees would not have 
+        to "reinvent the wheel." The drawback is that depending on the program, it could cost more in the 
+        long-run do to licensing and upgrades. Also, the good thing about Ruby on Rails is that it provides 
+        a great deal of functionality out-of-the-box and if it doesn't have it, there is probably a free 
+        plugin to do that task. If the Department of Management Services was programming in a closed-source 
+        framework then this may be viable, but since Rails is being utilized, the costs of this solution 
+        outweigh the benefits.
+      </p>
+    </section>
+	</body>
+</html>

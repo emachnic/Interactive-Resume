@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Evan Machnic - Contact</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+  </head>
+  <body>
+		<div id="containerWrapper">
+			<div id="header">
+				<p>
+        	<a href="http://tungle.me/emachnic" target="_blank">
+          	<img src="http://www.tungle.com/public/emachnic/busyicon" />
+          </a>
+        </p>
+			</div>
+			<div id="container">
+				<div id="sidebar">
+					<ul>
+          	<li>
+            	<a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/blog/blogs/about_me.php">About Me</a>
+            </li>
+            <li>
+             	<a href="/education/">Education</a>
+            </li>
+						<li>
+							<a href="/experience/">Experience</a>
+            <li>
+              <a href="/resume/">Resume</a>
+            </li>
+            <li>
+            	<a href="/portfolio/">Portfolio</a>
+            </li>
+            <li>
+              <a href="/blog/blogs/it_blog.php">IT Project</a>
+            </li>
+						<li>
+							<a href="/organizations/">Organizations</a>
+						</li>
+						<li>
+							<a href="/calendar/">Calendar</a>
+						</li>
+						<li>
+							<a href="/twitter/">Twitter</a>
+						</li>
+            <li class="navLast active">
+              <a href="/contact/">Contact</a>
+            </li>
+          </ul>
+					<p> 
+          	<a href="http://www.linkedin.com/in/evanmachnic"> 
+            	<img src="../images/btn_in_20x15.gif" alt="View Evan Machnic's profile on LinkedIn" />
+            </a> 
+            <a href="http://www.facebook.com/emachnic">
+            	<img style="padding-right: 5px;" src="../images/facebook-icon.png" alt="View Evan Machnic's profile on Facebook" />
+            </a> 
+            <a href="http://twitter.com/emachnic">
+            	<img src="../images/TwitterIcon.png" alt="Follow Evan Machnic on Twitter" />
+            </a> 
+          </p>
+				</div>
+				<div id="mainContent">
+					<h1>Contact Me</h1>
+          <div id="picture">
+  					<p>
+            	<img src="../images/Evan.jpg" alt="Evan Machnic" width="200" height="300" />
+            </p>
+  				</div>
+					<p>
+          	Here are the many different ways to get a hold of me:
+          </p>
+          <ul>
+          	<li>
+            	Home Phone - 850.339.3504
+            </li><br />
+            <li>
+            	Cell Phone - 850.980.5302
+            </li><br />
+            <li>
+            	Primary Email - <a href="mailto:emachnic@gmail.com">emachnic@gmail.com</a>
+            </li><br />
+            <li>
+            	Alternate Email - <a href="mailto:emachnic@broadmac.net">emachnic@broadmac.net</a>
+            </li><br />
+            <li>
+            	<a href="http://www.linkedin.com/in/evanmachnic">LinkedIn</a>
+            </li><br />
+            <li>
+            	<a href="http://profile.to/emachnic">Facebook</a>
+            </li><br />
+            <li>
+            	<a href="http://twitter.com/emachnic">Twitter</a>
+            </li><br />
+            <li>
+            	<a href="/calendar/">View My Calendar</a>
+            </li>
+          </ul>
+    		</div>
+				<div id="footer">
+  					<p>&copy; 2009 
+            	<a href="mailto:emachnic@broadmac.net">
+              	<em>Evan Machnic</em>
+              </a>
+            </p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

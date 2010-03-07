@@ -1,0 +1,150 @@
+/*Body layout
+header, nav, footer, section, aside, article, figure
+  :display block
+
+*
+  :margin 0
+  :padding 0
+  a
+    img
+      :border none
+
+body
+  :font
+    :family Verdana, Geneva, sans-serif
+    :size 14px
+  :text-align center
+  :background #000 url('/images/bodyBg.jpg') repeat-x 0 -120px
+
+/*Wrap everything in 997px wrapper
+#wrapper
+  :background url('/images/wrapBg.jpg') no-repeat 0 -120px
+  :width 997px
+  :min-height 600px
+  :margin auto
+
+/*Header layout
+header
+  :background url('/images/headerBg.jpg') no-repeat
+  :width 997px
+  :height 194px
+  :margin auto
+  :text-align left
+  p
+    img
+      :margin 20px 0 0 77px
+
+/*Main content layout
+=tabs_background
+  :background url('/images/inactiveTab.png') no-repeat
+=tabs_hover
+  :background url('/images/hoverTab.png') no-repeat
+=tabs_active
+  :background url('/images/activeTab.png') no-repeat
+
+nav
+  :width 840px
+  :height 25px
+  :margin -80px auto 0 auto
+  :text-align left
+  ul
+    :display inline
+    :list-style none
+    li
+      :float left
+      :width 163px
+      :height 25px
+      +tabs_background
+      a
+        :color #fff
+        :text-decoration none
+        :font-weight bold
+        :float left
+        :margin-top 4px
+        :text-shadow #111 1.5px 1.5px 1.5px
+    li:hover
+      +tabs_hover
+    li.selected
+      +tabs_active
+      a
+        :color #333
+        :text-shadow none
+    li.selected:hover
+      +tabs_active
+    #home a
+      :margin-left 45px
+    #portfolio, #about, #contact
+      :margin-left -2px
+    #portfolio a
+      :margin-left 35px
+    #about a
+      :margin-left 30px
+    #contact a
+      :margin-left 18px
+
+section
+  :background url('/images/contentBg.png') no-repeat
+  :width 840px
+  :height 313px
+  :margin auto
+  :text-align justify
+  :position relative
+  #portrait
+    :float right
+  #tungle-me
+    :position absolute
+    :right 10px
+    :top 225px
+  h1, h2
+    :padding 10px
+  article
+    p
+      :padding 10px
+      :line-height 20px
+    a
+      :color #000
+      :font-weight bold
+      img
+        :border none
+    ul
+      :list-style none
+      :padding 0 10px
+      li
+        :padding-bottom 10px
+  #resumeLogos
+    :padding-top 10px
+
+/*Twitter Feed
+#twitter_div
+  :width 840px
+  :height 80px
+  :margin 50px auto 0 auto
+  :text-align left
+  .floatLeft
+    :float left
+    :margin-right 10px
+  #twitter_update_list
+    :width 535px
+    :float left
+    :margin-right 10px
+    li
+      :color #333
+      :font-size 12px
+      a
+        :color #777
+  #email
+    :float right
+.clear
+  :clear both
+
+/*Footer
+footer
+  :color #fff
+  :font-size 11px
+  :width 840px
+  :margin auto
+  :text-align center
+  a
+    :color #ddd
+    img
+      :border none

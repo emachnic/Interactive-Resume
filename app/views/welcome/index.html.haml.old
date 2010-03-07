@@ -1,0 +1,31 @@
+%p#portrait
+  = image_tag("portrait.png", :size => "199x313", :alt => "", :title => "Evan Machnic")
+%article
+  %h1
+    Welcome!
+  %p
+    My name is Evan Machnic and I am an ambitious Web Developer. I have been building HTML and CSS web sites since
+    2003 and recently have worked more with 
+    = link_to "PHP", "http://php.net"
+    and
+    = link_to "Ruby on Rails", "http://rubyonrails.org"
+    as well as
+    = link_to "HTML5", "http://html5.org"
+    \. I focus on creating high-quality,
+    standards-based  web sites that look great and function exceptionally well. I believe the web should be
+    accessible to everyone so I like to make my markup as semantic as possible. Please look through my
+    = link_to "Portfolio", :controller => 'portfolio'
+    and
+    = link_to "About Me", :controller => 'about'
+    sections to learn more about me and you can also find my contact information in the
+    = link_to "Get in Touch", :controller => 'contact'
+    section. You can download my print 
+    = link_to "resume", "http://docs.google.com/fileview?id=0B2UEfkfXibrnODNiMDFhNDEtYTk0ZS00M2RjLWI0ZjItMzM2YzdmNzkwNTZm&hl=en"
+    below.
+  %p#resumeLogos
+    %a{ :href => "/documents/InfoTechResume.odt" }
+      = image_tag ('odt_icon.png', :title => "Open Document Text", :size => "32x32", :alt => "", :style => "float: left; margin-top: 2px;")
+    %a{ :href => "/documents/InfoTechResume.doc" }
+      = image_tag ('word_doc_icon.gif', :title => "Microsoft Word", :size => "32x32", :alt => "", :style => "float: left; margin-top: 2px;")
+    %a{ :href => "/documents/InfoTechResume.pdf" }
+      = image_tag ('pdf-icon.png', :title => "Adobe Reader", :size => "38x36", :alt => "", :style => "float: left;")

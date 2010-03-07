@@ -1,0 +1,74 @@
+body {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: small;
+  background-color: #ccdbfa;
+  text-align: center;
+}
+#header {
+  margin: auto;
+  background-image: url(../images/Header1.png);
+  background-repeat: no-repeat;
+  width: 761px;
+  height: 117px;
+}
+#headerWrapper {
+  margin: auto;
+  width: 780px;
+  height: 117px;
+  background-image: url(../images/broadmacShadow.gif);
+  background-repeat: repeat-y;
+}
+#headerNav {
+  float: right;
+}
+#container {
+  margin: auto;
+  background-color: #ffffff;
+  width: 762px;
+  padding-top: 16px;
+}
+#containerWrapper {
+  background-image: url(../images/broadmacShadow.gif);
+  background-repeat: repeat-y;
+  margin: -13px auto -10px auto;
+  width: 780px;
+}
+#sidebar {
+  margin: 0px 0px 10px;
+  width: 100px;
+  float: left;
+  text-align: left;
+}
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: block;
+}
+#sidebar ul li {
+  border-top: thin solid #dddddd;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 3px;
+  height: 1.5em;
+}
+#sidebar ul li a {
+  text-decoration: none;
+  color: #444444;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navLast {
+  border-bottom: thin solid #dddddd;
+}
+#mainContent {
+  margin: 0px 30px 20px 130px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+#footer {
+  background-color: #DDDDDD;
+  font-size: x-small;
+  text-align: center;
+  width: 100%;
+}

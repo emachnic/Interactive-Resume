@@ -1,0 +1,36 @@
+#sliderContainer
+  #slider
+    %ul
+      %li
+        /Content for Matt's Portfolio section
+        %h2 Matt Matichak's Portfolio
+        %a.lightbox{ :href => "images/mattPortfolio.png" }
+          = image_tag( "mattPortfolio.png", :size => "319x200" )
+        %p
+          This is the same designer who designed my new site. I did the back end coding for his site as well as
+          cleaned up some of the HTML code created by Dreamweaver. I really like the layout for his portfolio as
+          well as the implemented CoolIris. Matt is a good friend and has awesome vision for design.
+      %li
+        /Content for AIT Redesign section
+        %h2 AIT Envirotech Redesign
+        %a.lightbox{ :href => "images/ait.png" }
+          = image_tag( "ait.png", :size => "221x200" )
+        %p
+          In spring of 2009, I was hired by AIT Envirotech to create a new website for them as quick as possible.
+          At the time, I was finishing up school at Florida State University and I threw together a quick design.
+          This is a new layout I am working on that is going to be more modern and appealing. I am also working
+          on a social marketing campaign to get their name out there as much as possible.
+      %li
+        /Content for old IR section
+        %h2 Original Interactive Resume
+        %a.lightbox{ :href => "images/oldIR.png" }
+          = image_tag( "oldIR.png", :size => "198x200" )
+        %p
+          The design and code for my original Interactive Resume is entirely from me. I had to create a logo for
+          myself as well as design my own site. I really like the simplicity of this but I thought that it needed
+          a revamp and the more modern look of the new site.
+:javascript
+  $(document).ready(function(){
+    $('#slider').easySlider();
+    $('a.lightbox').lightBox();
+  });

@@ -1,0 +1,20 @@
+%article
+  %h1
+    Contact
+  %p
+    Here are the best ways to get in touch with me and see what I'm about.
+  %ul
+    %li
+      = mail_to("emachnic@broadmac.net", "Primary Email", :encode => "javascript")
+    %li
+      = mail_to("emachnic@gmail.com", "Alternate Email", :encode => "javascript")
+    %li
+      %a{ :href => "http://twitter.com/emachnic" }
+        = image_tag "twitterIcon2.png", :title => "Follow me on Twitter"
+      %a{ :href => "http://www.facebook.com/emachnic" }
+        = image_tag "facebookIcon.png", :title => "Friend me on Facebook"
+      %a{ :href => "http://www.linkedin.com/in/evanmachnic" }
+        = image_tag "linkInIcon.png", :title => "Connect on LinkedIn"
+      %a{ :href => "http://www.youtube.com/emachnic" }
+        = image_tag "youTubeIcon.png", :title => "Check out my YouTube videos"
+

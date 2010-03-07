@@ -1,0 +1,114 @@
+<rooms>
+	<room>
+		<name>Colorado Room</name>
+		<roomsize>20x20</roomsize>
+		<cateringservice>Yes</cateringservice>
+		<restroomlocation>Westside near elevator</restroomlocation>
+		<capacity>150</capacity><windows>South wall all glass, garden view</windows>
+		<wheelchair_accessible>Yes</wheelchair_accessible>
+		<description>The Colorado Room is a comfortable room for any type of event. It is a popular room so book now!</description>
+		<stars>5</stars>
+		<publictelephone_location>Entry level: North wall</publictelephone_location>
+		<eventtypes><event>Wedding</event>
+	<event>Seminar</event>
+	<event>Conference</event>
+	<event>Dinner Party</event>
+	<event>Dance</event>
+	<event>Meeting</event></eventtypes>
+		<maxroundtables>15</maxroundtables>
+		<maxsquaretables>10</maxsquaretables>
+		<roomimage>conference.jpg</roomimage></room>
+	<room>
+		<name>Mile High Room</name>
+		<roomsize>25x30</roomsize>
+		<cateringservice>Yes</cateringservice>
+		<restroomlocation>Westside near elevator</restroomlocation>
+		<capacity>100</capacity>
+		<windows>One window, north wall</windows>
+		<wheelchair_accessible>Yes</wheelchair_accessible>
+		<description>The Colorado Room is a comfortable room for any type of event. It is a popular room so book now!</description>
+		<stars>3</stars>
+		<publictelephone_location>Entry level: North wall</publictelephone_location>
+		<eventtypes><event>Wedding</event>
+			<event>Seminar</event>
+			<event>Dinner Party</event>
+			<event>Dance</event>
+			<event>Meeting</event></eventtypes>
+		<maxroundtables>10</maxroundtables>
+		<maxsquaretables>8</maxsquaretables>
+		<roomimage>conference.jpg</roomimage></room>
+	<room>
+		<name>Bronco Room</name>
+		<roomsize>15x13</roomsize>
+		<cateringservice>No</cateringservice>
+		<restroomlocation>Eastside near elevator</restroomlocation>
+		<capacity>75</capacity>
+		<windows>None</windows>
+		<wheelchair_accessible>Yes</wheelchair_accessible>
+		<description>The Colorado Room is a comfortable room for any type of event. It is a popular room so book now!</description>
+		<stars>4</stars>
+		<publictelephone_location>Entry level: North wall</publictelephone_location>
+		<eventtypes><event>Seminar</event>
+			<event>Dance</event>
+			<event>Meeting</event></eventtypes>
+		<maxroundtables>8</maxroundtables>
+		<maxsquaretables>6</maxsquaretables>
+		<roomimage>conference.jpg</roomimage></room>
+	<room>
+		<name>Greeley Room</name>
+		<roomsize>20x20</roomsize>
+		<cateringservice>Yes</cateringservice>
+		<restroomlocation>Westside near elevator</restroomlocation>
+		<capacity>150</capacity>
+		<windows>South wall all glass, garden view</windows>
+		<wheelchair_accessible>Yes</wheelchair_accessible>
+		<description>The Colorado Room is a comfortable room for any type of event. It is a popular room so book now!</description>
+		<stars>1</stars>
+		<publictelephone_location>Entry level: North wall</publictelephone_location>
+		
+		<eventtypes><event>Wedding</event>
+			<event>Seminar</event>
+			<event>Conference</event>
+			<event>Dinner Party</event>
+			<event>Dance</event>
+			<event>Meeting</event></eventtypes><maxroundtables>15</maxroundtables>
+		<maxsquaretables>10</maxsquaretables>
+		<roomimage>conference.jpg</roomimage>
+	</room>
+	<room>
+		<name>Boulder Room</name>
+		<roomsize>40x40</roomsize>
+		<cateringservice>Yes</cateringservice>
+		<restroomlocation>Westside near elevator</restroomlocation>
+		<capacity>350</capacity>
+		<windows>None</windows>
+		<wheelchair_accessible>Yes</wheelchair_accessible>
+		<description>The Colorado Room is a comfortable room for any type of event. It is a popular room so book now!</description>
+		<stars>3</stars>
+		<publictelephone_location>Entry level: North wall</publictelephone_location>
+		<eventtypes><event>Wedding</event>
+			<event>Seminar</event>
+			<event>Conference</event>
+			<event>Dinner Party</event>
+			<event>Dance</event>
+			<event>Meeting</event></eventtypes>
+		<maxroundtables>35</maxroundtables>
+		<maxsquaretables>30</maxsquaretables>
+		<roomimage>conference.jpg</roomimage></room>
+	<room>
+		<name>Denver Room</name>
+		<roomsize>10x10</roomsize>
+		<cateringservice>No</cateringservice>
+		<restroomlocation>Southside near stairs</restroomlocation>
+		<capacity>10</capacity>
+		<windows>None</windows>
+		<wheelchair_accessible>Yes</wheelchair_accessible>
+		<description>The Colorado Room is a comfortable room for any type of event. It is a popular room so book now!</description>
+		<stars>2</stars>
+		<publictelephone_location>Entry level: North wall</publictelephone_location>
+		<eventtypes><event>Meeting</event>
+			<event>Seminar</event></eventtypes>
+		<maxroundtables>1</maxroundtables>
+		<maxsquaretables>1</maxsquaretables>
+		<roomimage>conference.jpg</roomimage></room>
+</rooms>

@@ -1,0 +1,49 @@
+!!! 5
+%html
+  %head
+    %title
+      Evan Machnic ::
+      = controller_name.capitalize
+    = stylesheet_link_tag "application"
+    = stylesheet_link_tag "slideshow"
+    = stylesheet_link_tag "jquery.lightbox-0.5"
+    = javascript_include_tag :defaults
+    = javascript_include_tag "easySlider"
+    = javascript_include_tag "jquery.lightbox-0.5"
+    /[if IE]
+      %meta( http-equiv="X-UA-Compatible" content="IE=EmulateIE7" )
+      %script{ :src => "http://html5shiv.googlecode.com/svn/trunk/html5.js", :type => "text/javascript" }
+    %link{ :rel => "icon", :type => "image/png", :href => "images/favicon.png" }
+  %body
+    #wrapper
+      %header
+        %p
+          %img{ :src => "images/evanBrand.png", :width => "375px", :height => "48px", :alt => "Evan Machnic Brand" }
+      %nav
+        = render_navigation
+      %section
+        = yield
+      #twitter_div
+        %p.floatLeft
+          %a{ :href => 'http://twitter.com' }
+            = image_tag 'twitterIcon.png'
+        %p.floatLeft
+          %a{ :href => 'http://twitter.com/emachnic' }
+            = image_tag 'twitterFeed.png'
+        %ul#twitter_update_list
+        %p#email
+          %a{ :href => "mailto:emachnic@broadmac.net" }
+            = image_tag "emailMe.png"
+      %div.clear
+      %footer
+        Copyright &copy; 2010
+        %em
+          = mail_to("emachnic@broadmac.net", "Evan Machnic", :encode => "javascript")
+        | Design by
+        %em
+          = mail_to("mattmatichak@yahoo.com", "Matt Matichak", :encode => "javascript")
+        | Riding on
+        %em
+          = link_to("Rails", :href => "http://rubyonrails.org")
+    = javascript_include_tag "http://twitter.com/javascripts/blogger.js"
+    = javascript_include_tag "http://twitter.com/statuses/user_timeline/emachnic.json?callback=twitterCallback2&amp;count=1"

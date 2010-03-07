@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Evan B. Machnic - Education</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
+		<script type="text/javascript"> 
+			<!--var xmlhttp=false;
+				try {
+					xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+				}catch(e){
+					try{
+						xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+					}catch(e){
+						xmlhttp = false;
+					}
+				}
+				if(!xmlhttp && typeof XMLHttpRequest != 'undefined'){
+					xmlhttp = new XMLHttpRequest();
+				}
+				function makerequest(serverPage, objID){
+					var obj = document.getElementById(objID);
+					xmlhttp.open("GET", serverPage);
+					xmlhttp.onreadystatechange = function(){
+						if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+							obj.innerHTML = xmlhttp.responseText;
+						}
+					}
+					xmlhttp.send(null);
+				}
+		</script>  
+  </head>
+  <body>
+  	<div id="containerWrapper">
+    	<div id="header">
+    		<p>
+        	<a href="http://tungle.me/emachnic" target="_blank">
+          	<img src="http://www.tungle.com/public/emachnic/busyicon" alt="Tungle Me"/>
+          </a>
+        </p>
+    	</div>
+    	<div id="container">
+    		<div id="sidebar">
+      		<ul>
+          	<li>
+            	<a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/blog/blogs/about_me.php">About Me</a>
+            </li>
+            <li class="active">
+             	<a href="/education/">Education</a>
+            </li>
+						<li>
+							<a href="/experience/">Experience</a>
+            <li>
+              <a href="/resume/">Resume</a>
+            </li>
+            <li>
+            	<a href="/portfolio/">Portfolio</a>
+            </li>
+            <li>
+              <a href="/blog/blogs/it_blog.php">IT Project</a>
+            </li>
+						<li>
+							<a href="/organizations/">Organizations</a>
+						</li>
+						<li>
+							<a href="/calendar/">Calendar</a>
+						</li>
+						<li>
+							<a href="/twitter/">Twitter</a>
+						</li>
+            <li class="navLast">
+              <a href="/contact/">Contact</a>
+            </li>
+          </ul>
+        	<p>
+         		<a href="http://www.linkedin.com/in/evanmachnic" >
+          		<img src="../images/btn_in_20x15.gif" alt="View Evan Machnic's profile on LinkedIn" />
+    				</a>
+    				<a href="http://www.facebook.com/emachnic">
+            	<img style="padding-right: 5px;" src="../images/facebook-icon.png" alt="View Evan Machnic's profile on Facebook" />
+            </a>
+            <a href="http://twitter.com/emachnic">
+            	<img src="../images/TwitterIcon.png" alt="Follow Evan Machnic on Twitter" />
+            </a>
+    			</p>
+      	</div>
+      	<div id="mainContent"> 
+        	<h1>Education</h1>
+					<ul>
+						<li>
+							<a href="infoServices.html" onclick="makerequest('infoServices.html', 'targetDiv');return false;">Information Services</a>
+						</li><br />
+						<li>
+							<a href="infoOrganization.html" onclick="makerequest('infoOrganization.html', 'targetDiv'); return false;">Information Organization</a>
+						</li><br />
+						<li>
+							<a href="webServices.html" onclick="makerequest('webServices.html', 'targetDiv'); return false;">Web Services</a>
+						</li><br />
+						<li>
+							<a href="networking.html" onclick="makerequest('networking.html', 'targetDiv'); return false;">Networking</a>
+						</li>
+					</ul> 
+					<div id="targetDiv"></div> 
+      	</div>
+        <div id="footer">
+  				<p>&copy; 2009 
+            <a href="mailto:emachnic@broadmac.net">
+              <em>Evan Machnic</em>
+            </a>
+          </p>
+				</div>
+    	</div>
+    </div>
+  </body>
+</html>

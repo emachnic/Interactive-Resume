@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* College Of Information */
+/* CSS Document */
+
+body {
+	background-image: url(Images/redFading.png);
+	background-repeat: repeat-x;
+	}
+#page {
+	width: 950px;
+	height: 580px;
+	background-color: white;
+	margin: auto;
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	}
+#header {
+	background-color: white;
+	height: 80px;
+	}
+#headContent {
+	float: right;
+	padding-top: 0;
+	margin-top: 0;
+	}
+#banner {
+	float: left;
+	padding-top: 5px;
+	}
+#banner img{
+	border: none;
+	}
+#news {
+	width: 174px;
+	height: 450px;
+	background-color: #660000;
+	color: #FFFFCC;
+	float: right;
+	border-top: black;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	}
+#newsHead {
+	height: 35px;
+	background-color: #FFFF99;
+	color: #660000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 5px;
+	border-bottom: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	}
+#content {
+	width: 600px;
+	height: 450px;
+	float: right;
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+	}
+#navigation {
+	background-color: #660000;
+	color: #FFFFCC;
+	font-family: Monospace;
+	text-align: center;
+	float:right;
+	width: 174px;
+	height: 450px;
+	border-top: black;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	}
+#footer {
+	width: 950px;
+	height: 48px;
+	background-color: #CCCCCC;
+	clear: both;
+	overflow: hidden;
+	}
+#w3 {
+	width: 199px;
+	float: right;
+	padding-top: .5em;
+	overflow: hidden;
+	text-align: right;
+	}
+#textLinks {
+	width: 550px;
+	float: right;
+	text-align: center;
+	padding-top: .7em;
+	overflow: hidden;
+	}
+#copy {
+	width: 199px;
+	float: left;
+	padding-top: .7em;
+	text-indent: 1em;
+	overflow: hidden;
+	font-size: large;
+	}
+img.noBorder {
+	border: none;
+	}
+a.button {
+	background: #FFFF99;
+	color: #660000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: large;
+	border-width: 4px;
+	border-style: solid;
+	border-top-color: #FFFFCC ;
+	border-right-color: #FFCC66;
+	border-bottom-color: #FFCC66;
+	border-left-color: #FFFFCC;
+	text-decoration: none;
+	text-align: center;
+	width: 10em;
+	}

@@ -1,0 +1,166 @@
+header, footer, aside, section, figure, nav, article {
+	display: block; }
+
+a {
+  color: #569; }
+    
+body {
+	font-family: Arial,Helvetica,sans-serif;
+  font-size: small;
+  background-color: #ccdbfa;
+  text-align: center; }
+
+code {
+  width: 300px;
+  min-height: 400px;
+  background-color: #DDD; }
+
+footer {
+  background-color: #DDDDDD;
+  font-size: x-small;
+  text-align: center;
+  width: 762px;
+  margin: -20px auto 0 auto;
+  padding: 0; }
+  footer p {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    
+#containerWrapper>header {
+  margin: auto;
+  background-image: url(../images/Header1.png);
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  width: 762px;
+  height: 117px;
+	text-align: right; }
+  #containerWrapper>header p img {
+    border: 0; }
+
+#container {
+  background-color: #ffffff;
+  width: 762px;
+  margin: 0 auto -10px auto;
+  padding-top: 16px; }
+
+nav {
+  margin: 0px 0px 10px;
+  width: 125px;
+  float: left;
+  text-align: left;
+  padding-right: 20px; }
+  nav p {
+    margin-left: 10px; }
+    nav p a img {
+      border: 0; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block; }
+    nav ul li {
+      border-top: thin solid #dddddd;
+      margin: 0;
+      padding-left: 10px;
+      padding-top: 3px;
+      height: 1.5em; }
+      nav ul li:hover {
+        background-color: #DDD; }
+      nav ul li a {
+        text-decoration: none;
+        color: #444444;
+        font-weight: bold;
+        text-transform: uppercase; }
+
+nav+article {
+	margin: 0px 30px 20px 145px;
+  min-height: 550px;
+  text-align: justify;
+  padding-bottom: 20px;
+  padding-right: 20px; }
+  nav+article h4 {
+    font: italic bold; }
+  nav+article table {
+    width: 580px;
+    border: ridge 3px #CCC;
+    text-align: center;
+    margin: auto;
+    cellpadding: 0; }
+  nav+article td {
+    border: ridge 3px #CCC; }
+  nav+article ol li {
+    margin-bottom: 5px; }
+    nav+article ol li ol {
+      list-style: lower-roman;
+      padding-left: 10px; }
+      nav+article ol li ol li:first-child {
+        margin-top: 5px; }
+  nav+article ul li {
+    margin-bottom: 15px; }
+    nav+article ul li li {
+      margin-bottom: 15px; }
+
+section>header {
+	padding-bottom: 10px;
+}
+section>header h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+td {
+  padding-left: 5px;
+  padding-right: 5px; }
+  td p {
+    text-align: justify; }
+  td h4 {
+    padding-top: 0;
+    margin-top: 0;
+    background: #F8A33D;
+    text-align: center; }
+    td h4.col1 {
+      padding-left: 20px;
+      padding-right: 20px; }
+  td a img {
+    border: 0; }
+
+/*IDs*/
+#containerWrapper {
+  background-image: url(../images/broadmacShadow.gif);
+  background-repeat: repeat-y;
+  margin-top: -13px;
+  margin-right: auto;
+  margin-bottom: -10px;
+  margin-left: auto;
+  width: 780px; }
+  
+#picture {
+	float: right;
+	border: groove #630 medium;
+	background-color: #ccdbfa;
+	padding: 10px 15px 10px 15px;
+	margin-left: 20px; }
+
+#targetDiv p {
+	padding-bottom: 10px;
+}
+
+#twitter_div {
+  width: 400px;
+  height: 600px; }
+  #twitter_div ul {
+    list-style-type: none; }
+    #twitter_update_list li {
+      color: #66F;
+      border: thin dotted #ccc;
+      margin-bottom: 10px;
+      padding: 10px; }
+
+/*Classes*/
+.active {
+  background: #DDDDDD; }
+
+.alert {
+  border: dotted 1px #DDD;
+  background-color: #F8FE90;
+  color: #FE413A; }

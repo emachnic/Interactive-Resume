@@ -1,0 +1,140 @@
+/* Body layout */
+header, nav, footer, section, aside, article, figure {
+  display: block; }
+
+* {
+  margin: 0;
+  padding: 0; }
+  * a img {
+    border: none; }
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  background: #000 url('/images/bodyBg.jpg') repeat-x 0 -120px; }
+
+/* Wrap everything in 997px wrapper */
+#wrapper {
+  background: url('/images/wrapBg.jpg') no-repeat 0 -120px;
+  width: 997px;
+  min-height: 600px;
+  margin: auto; }
+
+/* Header layout */
+header {
+  background: url('/images/headerBg.jpg') no-repeat;
+  width: 997px;
+  height: 194px;
+  margin: auto;
+  text-align: left; }
+  header p img {
+    margin: 20px 0 0 77px; }
+
+/* Main content layout */
+nav {
+  width: 840px;
+  height: 25px;
+  margin: -80px auto 0 auto;
+  text-align: left; }
+  nav ul {
+    display: inline;
+    list-style: none; }
+    nav ul li {
+      float: left;
+      width: 163px;
+      height: 25px;
+      background: url('/images/inactiveTab.png') no-repeat; }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        float: left;
+        margin-top: 4px;
+        text-shadow: #111 1.5px 1.5px 1.5px; }
+    nav ul li:hover {
+      background: url('/images/hoverTab.png') no-repeat; }
+    nav ul li.selected {
+      background: url('/images/activeTab.png') no-repeat; }
+      nav ul li.selected a {
+        color: #333;
+        text-shadow: none; }
+    nav ul li.selected:hover {
+      background: url('/images/activeTab.png') no-repeat; }
+    nav ul #home a {
+      margin-left: 45px; }
+    nav ul #portfolio, nav ul #about, nav ul #contact {
+      margin-left: -2px; }
+    nav ul #portfolio a {
+      margin-left: 35px; }
+    nav ul #about a {
+      margin-left: 30px; }
+    nav ul #contact a {
+      margin-left: 18px; }
+
+section {
+  background: url('/images/contentBg.png') no-repeat;
+  width: 840px;
+  height: 313px;
+  margin: auto;
+  text-align: justify;
+  position: relative; }
+  section #portrait {
+    float: right; }
+  section #tungle-me {
+    position: absolute;
+    right: 10px;
+    top: 225px; }
+  section h1, section h2 {
+    padding: 10px; }
+  section article p {
+    padding: 10px;
+    line-height: 20px; }
+  section article a {
+    color: #000;
+    font-weight: bold; }
+    section article a img {
+      border: none; }
+  section article ul {
+    list-style: none;
+    padding: 0 10px; }
+    section article ul li {
+      padding-bottom: 10px; }
+  section #resumeLogos {
+    padding-top: 10px; }
+
+/* Twitter Feed */
+#twitter_div {
+  width: 840px;
+  height: 80px;
+  margin: 50px auto 0 auto;
+  text-align: left; }
+  #twitter_div .floatLeft {
+    float: left;
+    margin-right: 10px; }
+  #twitter_div #twitter_update_list {
+    width: 535px;
+    float: left;
+    margin-right: 10px; }
+    #twitter_div #twitter_update_list li {
+      color: #333;
+      font-size: 12px; }
+      #twitter_div #twitter_update_list li a {
+        color: #777; }
+  #twitter_div #email {
+    float: right; }
+
+.clear {
+  clear: both; }
+
+/* Footer */
+footer {
+  color: #fff;
+  font-size: 11px;
+  width: 840px;
+  margin: auto;
+  text-align: center; }
+  footer a {
+    color: #ddd; }
+    footer a img {
+      border: none; }

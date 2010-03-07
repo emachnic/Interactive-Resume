@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Evan Machnic - Organizations</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
+  </head>
+  <body>
+    <div id="containerWrapper">
+      <div id="header">
+      	<p>
+        	<a href="http://tungle.me/emachnic" target="_blank">
+          	<img src="http://www.tungle.com/public/emachnic/busyicon" alt="Tungle Me" />
+          </a>
+        </p>
+      </div>
+      <div id="container">
+        <div id="sidebar">
+        	<ul>
+          	<li>
+            	<a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/blog/blogs/about_me.php">About Me</a>
+            </li>
+            <li>
+             	<a href="/education/">Education</a>
+            </li>
+						<li>
+							<a href="/experience/">Experience</a>
+            <li>
+              <a href="/resume/">Resume</a>
+            </li>
+            <li>
+            	<a href="/portfolio/">Portfolio</a>
+            </li>
+            <li>
+              <a href="/blog/blogs/it_blog.php">IT Project</a>
+            </li>
+						<li class="active">
+							<a href="/organizations/">Organizations</a>
+						</li>
+						<li>
+							<a href="/calendar/">Calendar</a>
+						</li>
+						<li>
+							<a href="/twitter/">Twitter</a>
+						</li>
+            <li class="navLast">
+              <a href="/contact/">Contact</a>
+            </li>
+          </ul>
+          <p>
+          	<a href="http://www.linkedin.com/in/evanmachnic">
+            	<img src="../images/btn_in_20x15.gif" alt="View Evan Machnic's profile on LinkedIn" />
+            </a>
+						<a href="http://www.facebook.com/emachnic">
+            	<img style="padding-right: 5px;" src="../images/facebook-icon.png" alt="View Evan Machnic's profile on Facebook" />
+            </a>
+						<a href="http://twitter.com/emachnic">
+            	<img src="../images/TwitterIcon.png" alt="Follow Evan Machnic on Twitter" />
+            </a>
+          </p>
+        </div>
+        <div id="mainContent">
+        	<h1>Membership in Professional Organizations</h1> 
+					<ul> 
+					  <li><a href="http://aitp.fsu.edu">Association of Information Technology Professionals</a> 
+					    <ul><br />
+					      <li>Spring 2009 to Present</li> 
+					    </ul> 
+					  </li> 
+					  <li><a href="http://tlhdotnet.org">Capital City Dot Net Users' Group</a> 
+					    <ul><br /> 
+					      <li>Spring 2009 to Present</li> 
+					    </ul> 
+					  </li> 
+					  <li>Linux Users' Group at FSU
+					    <ul><br /> 
+					      <li>2007 to 2009</li> 
+					    </ul> 
+					  </li> 
+					  <li><a href="http://www.chiphifsu.com">Chi Phi Fraternity - Nu Delta Chapter</a> 
+					    <ul><br /> 
+					      <li>2003 to Present</li> 
+					      <li>Fall 2004 - House Manager</li> 
+					      <li>Spring 2004 to Fall 2004 - Homecoming Chair</li> 
+					    </ul> 
+					  </li> 
+					</ul> 
+        </div>
+        <div id="footer">
+        	<p>
+          	&copy; 2009 <a href="mailto:emachnic@broadmac.net"><em>Evan Machnic</em></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
