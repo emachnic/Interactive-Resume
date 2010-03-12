@@ -20,8 +20,8 @@ development:
   reconnect: false
   database: ir_broadmac_development
   pool: 5
-  username: root
-  password: Brdmc-2008
+  username: 
+  password: 
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -33,7 +33,7 @@ test:
   reconnect: false
   database: ir_broadmac_test
   pool: 5
-  username: root
+  username: 
   password:
   host: localhost
 
@@ -43,7 +43,7 @@ production:
   reconnect: false
   database: ir_broadmac
   pool: 5
-  username: emachnic
-  password: Brdmc-2008
-  host: mysql.broadmac.net
+  username: 
+  password: 
+  host: 
   socket: /var/run/mysqld/mysqld.sock
